@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .caja-canciones{
+            width: 250px;
+            border: 1px black solid;
+            border-radius: 6px;
+            height: 250px;
+            background-color: gray;
+            display:inline-block;
+            padding-top: 0px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            margin: 20px;
+        }
+        p{
+            float: left;
+        }
+        .gato{
+            width: 500px;
+            height: 500px;
+            border: 1px black solid;
+            background-color: blueviolet;
+
+        }
+        .gato img{
+            width: 200px;
+        }
+        .gato p{
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="caja-canciones">
+        <h2>Mi lista de Canciones</h2>
+        <p>Lista de canciones favoritas</p>
+        <ul>
+            <li>
+               <a target="_blank" href="https://www.youtube.com/watch?v=8SbUC-UaAxE&amp;pp=ygUNbm92ZW1iZXIgcmFpbg%3D%3D">November Rain</a> 
+            </li>
+            <li>
+                <a href="https://www.youtube.com/watch?v=NMNgbISmF4I&amp;pp=ygUFY3Jhenk%3D">Crazy</a>
+            </li>
+        </ul>
+    </div>
+    <div class="caja-canciones">
+        <h2>Mi lista de Canciones</h2>
+        <p>Lista de canciones favoritas</p>
+        <ul>
+            <li>
+               <a target="_blank" href="https://www.youtube.com/watch?v=8SbUC-UaAxE&amp;pp=ygUNbm92ZW1iZXIgcmFpbg%3D%3D">November Rain</a> 
+            </li>
+            <li>
+                <a href="https://www.youtube.com/watch?v=NMNgbISmF4I&amp;pp=ygUFY3Jhenk%3D">Crazy</a>
+            </li>
+        </ul>
+    </div>
+    <div class="caja-canciones">
+        <h2>Mi lista de Canciones</h2>
+        <p>Lista de canciones favoritas</p>
+        <ul>
+            <li>
+               <a target="_blank" href="https://www.youtube.com/watch?v=8SbUC-UaAxE&amp;pp=ygUNbm92ZW1iZXIgcmFpbg%3D%3D">November Rain</a> 
+            </li>
+            <li>
+                <a href="https://www.youtube.com/watch?v=NMNgbISmF4I&amp;pp=ygUFY3Jhenk%3D">Crazy</a>
+            </li>
+        </ul>
+    </div>
+    <div class="caja-canciones">
+        <h2>Mi lista de Canciones</h2>
+        <p>Lista de canciones favoritas</p>
+        <ul>
+            <li>
+               <a target="_blank" href="https://www.youtube.com/watch?v=8SbUC-UaAxE&amp;pp=ygUNbm92ZW1iZXIgcmFpbg%3D%3D">November Rain</a> 
+            </li>
+            <li>
+                <a href="https://www.youtube.com/watch?v=NMNgbISmF4I&amp;pp=ygUFY3Jhenk%3D">Crazy</a>
+            </li>
+        </ul>
+    </div>
+    <div class="gato">
+        <img src="./Document_files/nationalgeographic_1468962.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae libero numquam totam! Dignissimos sit earum quae debitis quas, tempore et hic. Voluptas optio ipsam veritatis! Est assumenda nobis accusamus libero saepe omnis quis eos, velit a, beatae dolores dolorum excepturi voluptatem reprehenderit provident corrupti nesciunt inventore voluptatibus possimus fuga facere!</p>
+    </div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

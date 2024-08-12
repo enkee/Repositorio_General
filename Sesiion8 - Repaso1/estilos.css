@@ -1,0 +1,47 @@
+header{
+    background-color: aquamarine;
+    text-align: center;
+}
+table{
+    width: 100%;
+    
+}
+td{
+    border: 1px black solid;
+}
+.datos{
+    width: 50%;
+    background-color: rgb(235, 162, 157);
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    display:inline-block;
+}
+main{
+    margin-left: 50px;
+}
+img{
+    width: 500px;
+}
+.etiqueta{
+    display:inline;
+
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+form{
+    width: 500px;
+    background-color: cadetblue;
+    margin: auto;
+    padding: 50px;
+}
+h2{
+    text-align: center;
+}
+input{
+    margin: 10px;
+}
